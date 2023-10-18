@@ -91,6 +91,7 @@ header{
   }
   .mobile-menu .nav-item {
     display: block;
+    justify-content: center;
     padding-top: 1.2rem;
   }
   .mobile-menu .login-button{
@@ -108,12 +109,7 @@ header{
 
 
 /*barra de pesquisa*/
-body{
-    margin: 0;
-    height: 100vh;
-    width: 100vw;
-    background-image: linear-gradient(45deg, #178f21, #cce110);
-}
+
 .search-box{
     position: absolute;
     top: 50%;
@@ -139,8 +135,8 @@ body{
     transition: .4s;
 }
 ::-webkit-input-placeholder{
-    color: #3182d8;
-    font-family: 'Open Sans';
+    color: #ffffff;
+    font-family: sans-serif;
 }
 .search-btn{
     width: 40px;
