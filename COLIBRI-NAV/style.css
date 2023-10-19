@@ -23,6 +23,8 @@ header{
 }
 .nav-bar{
   display: flex;
+  align-items: center;
+  gap: 1rem;
   justify-content: space-between;
   padding: 1.5rem 6rem;
 }
@@ -124,10 +126,6 @@ header{
 /*barra de pesquisa*/
 
 .search-box{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-590px, -374px);
     background: #0a1b2d;
     height: 40px;
     padding: 10px;
