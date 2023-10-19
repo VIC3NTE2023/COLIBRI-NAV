@@ -8,6 +8,19 @@ header{
   background-image: linear-gradient(45deg, #5DE0E6, #0078A6);
   box-shadow: 0px 3px 10px #464646;   
 }
+
+.titulo {
+  display: flex;
+  margin: 10px;
+  
+}
+.titulo2{
+  display: flex;
+  position: relative;
+  bottom: 200px;
+  margin: 10px;
+  
+}
 .nav-bar{
   display: flex;
   justify-content: space-between;
@@ -114,7 +127,7 @@ header{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-540px, -373px);
+    transform: translate(-590px, -374px);
     background: #0a1b2d;
     height: 40px;
     padding: 10px;
@@ -149,7 +162,7 @@ header{
     transition: .4s;
 }
 .search-box:hover > .search-txt{
-    width: 240px;
+    width: 200px;
     padding: 0 6px;
 }
 .search-box:hover > .search-btn{
@@ -161,7 +174,8 @@ header{
   position: absolute;
   width: 100px;
   height: 140px;
-  margin: 10px;
+  margin: 1px;
+  
 }
 .container:hover .flip{
   transform: rotateY(180deg);
@@ -180,12 +194,15 @@ header{
   width: 100%;
   height: 100%;
   border-radius: 4px;
-  box-shadow: 0px 0px 10px #0000002a;
+  box-shadow: 0px 0px 10px #ffffff2a;
   backface-visibility: hidden;
 }
 .frente{
   background-image: url(livroalgoritimo.jpg);
   background-size: cover;
+  border-width: 5px;
+border-style: solid; 
+border-color:  black
 }
 .tras{
   background-color: rgb(0, 0, 0);
@@ -194,7 +211,7 @@ header{
   display: flex;
   justify-content: center;
   font-size: 24px;
-  color: #fff;
+  color: rgb(255, 255, 255);
   font-size: 20px;
   font-family: sans-serif;
   padding: 5px;
@@ -233,6 +250,237 @@ header{
   background-size: cover;
 }
 .tras2{
+  background-color: rgb(0, 0, 0);
+  transform: rotateY(180deg);
+  align-items: top;
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+  color: #fff;
+  font-size: 20px;
+  font-family: sans-serif;
+  padding: 5px;
+}
+
+/*LIVRO3*/
+.container3{
+  position: relative;
+  left: 410px;
+  bottom: 150px;
+  width: 100px;
+  height: 140px;
+  
+}
+.container3:hover .flip3{
+  transform: rotateY(180deg);
+}
+.flip3{
+  position: absolute;
+  width: 140%;
+  height: 140%;
+  cursor: pointer;
+  transform-style: preserve-3d;
+  transition: 1s;
+  margin: 10px;
+}
+.frente3,.tras3{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+  box-shadow: 0px 0px 10px #0000002a;
+  backface-visibility: hidden;
+}
+.frente3{
+  background-image: url(java.jpg);
+  background-size: cover;
+}
+.tras3{
+  background-color: rgb(0, 0, 0);
+  transform: rotateY(180deg);
+  align-items: top;
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+  color: #fff;
+  font-size: 20px;
+  font-family: sans-serif;
+  padding: 5px;
+}
+
+/*LIVRO4*/
+.container4{
+  position: relative;
+  left: 600px;
+  bottom: 290px;
+  width: 100px;
+  height: 140px;
+  
+}
+.container4:hover .flip4{
+  transform: rotateY(180deg);
+}
+.flip4{
+  position: absolute;
+  width: 140%;
+  height: 140%;
+  cursor: pointer;
+  transform-style: preserve-3d;
+  transition: 1s;
+  margin: 10px;
+}
+.frente4,.tras4{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+  box-shadow: 0px 0px 10px #0000002a;
+  backface-visibility: hidden;
+}
+.frente4{
+  background-image: url(Sql.jpg);
+  background-size: cover;
+}
+.tras4{
+  background-color: rgb(0, 0, 0);
+  transform: rotateY(180deg);
+  align-items: top;
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+  color: #fff;
+  font-size: 20px;
+  font-family: sans-serif;
+  padding: 5px;
+}
+
+/*LIVRO5*/
+.container5{
+  position: relative;
+  left: 10px;
+  bottom: 190px;
+  width: 100px;
+  height: 140px;
+  
+}
+.container5:hover .flip5{
+  transform: rotateY(180deg);
+}
+.flip5{
+  position: absolute;
+  width: 140%;
+  height: 140%;
+  cursor: pointer;
+  transform-style: preserve-3d;
+  transition: 1s;
+  margin: 10px;
+}
+.frente5,.tras5{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+  box-shadow: 0px 0px 10px #0000002a;
+  backface-visibility: hidden;
+}
+.frente5{
+  background-image: url(culinaria.jpg);
+  background-size: cover;
+}
+.tras5{
+  background-color: rgb(0, 0, 0);
+  transform: rotateY(180deg);
+  align-items: top;
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+  color: #fff;
+  font-size: 20px;
+  font-family: sans-serif;
+  padding: 5px;
+}
+
+
+/*LIVRO6*/
+.container6{
+  position: relative;
+  left: 200px;
+  bottom: 330px;
+  width: 100px;
+  height: 140px;
+  
+}
+.container6:hover .flip6{
+  transform: rotateY(180deg);
+}
+.flip6{
+  position: absolute;
+  width: 140%;
+  height: 140%;
+  cursor: pointer;
+  transform-style: preserve-3d;
+  transition: 1s;
+  margin: 10px;
+}
+.frente6,.tras6{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+  box-shadow: 0px 0px 10px #0000002a;
+  backface-visibility: hidden;
+}
+.frente6{
+  background-image: url(pitadas.jpg);
+  background-size: cover;
+}
+.tras6{
+  background-color: rgb(0, 0, 0);
+  transform: rotateY(180deg);
+  align-items: top;
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+  color: #fff;
+  font-size: 20px;
+  font-family: sans-serif;
+  padding: 5px;
+}
+
+/*LIVRO6*/
+.container7{
+  position: relative;
+  left: 400px;
+  bottom: 470px;
+  width: 100px;
+  height: 140px;
+  
+}
+.container7:hover .flip7{
+  transform: rotateY(180deg);
+}
+.flip7{
+  position: absolute;
+  width: 140%;
+  height: 140%;
+  cursor: pointer;
+  transform-style: preserve-3d;
+  transition: 1s;
+  margin: 10px;
+}
+.frente7,.tras7{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+  box-shadow: 0px 0px 10px #0000002a;
+  backface-visibility: hidden;
+}
+.frente7{
+  background-image: url(toquedechefe.jpg);
+  background-size: cover;
+}
+.tras7{
   background-color: rgb(0, 0, 0);
   transform: rotateY(180deg);
   align-items: top;
