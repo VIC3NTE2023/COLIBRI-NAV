@@ -792,7 +792,7 @@ font-size: 1.25rem;
   list-style: none;
 }
 .footer-list .footer-link {
-  color: #7f37c9;
+  color: #ffffff;
   transition: all 0.4s;
 }
 .footer-list .footer-link:hover {
@@ -810,7 +810,7 @@ font-size: 1.25rem;
 #input_group{
   display: flex;
   align-items: center;
-  background-color: #25d366;
+  background-color: #ffffff;
   border-radius: 4px;
 }
 
@@ -820,9 +820,9 @@ font-size: 1.25rem;
   width: 100%;
 }
 #input_group button{
-  background-color: #7f37c9;
+  background-color: #0fd4ee;
   border: none;
-  color: #0078A6;
+  color: #000000;
   padding: 0px 1.25rem;
   font-size: 1.125rem;
   height: 100%;
