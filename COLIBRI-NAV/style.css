@@ -255,7 +255,7 @@ border-color:  black
   background-size: cover;
 }
 .tras2{
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(134, 10, 172);
   transform: rotateY(180deg);
   align-items: top;
   display: flex;
@@ -301,16 +301,17 @@ border-color:  black
   background-size: cover;
 }
 .tras3{
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(0, 162, 255);
   transform: rotateY(180deg);
   align-items: top;
   display: flex;
   justify-content: center;
   font-size: 24px;
-  color: #fff;
+  color: #000000;
   font-size: 20px;
   font-family: sans-serif;
   padding: 5px;
+  font-weight: 700;
 }
 
 /*LIVRO4*/
@@ -347,16 +348,17 @@ border-color:  black
   background-size: cover;
 }
 .tras4{
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
   transform: rotateY(180deg);
   align-items: top;
   display: flex;
   justify-content: center;
   font-size: 24px;
-  color: #fff;
+  color: #ec0a0a;
   font-size: 20px;
   font-family: sans-serif;
   padding: 5px;
+  font-weight: 700;
 }
 
 /*LIVRO5*/
@@ -393,16 +395,17 @@ border-color:  black
   background-size: cover;
 }
 .tras5{
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
   transform: rotateY(180deg);
   align-items: top;
   display: flex;
   justify-content: center;
   font-size: 24px;
-  color: #fff;
+  color: #12128c;
   font-size: 20px;
   font-family: sans-serif;
   padding: 5px;
+  font-weight: 700;
 }
 
 
@@ -440,7 +443,7 @@ border-color:  black
   background-size: cover;
 }
 .tras6{
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(0, 179, 255);
   transform: rotateY(180deg);
   align-items: top;
   display: flex;
@@ -486,7 +489,7 @@ border-color:  black
   background-size: cover;
 }
 .tras7{
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(99, 99, 99);
   transform: rotateY(180deg);
   align-items: top;
   display: flex;
@@ -532,16 +535,17 @@ border-color:  black
   background-size: cover;
 }
 .tras8{
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(230, 183, 109);
   transform: rotateY(180deg);
   align-items: top;
   display: flex;
   justify-content: center;
   font-size: 24px;
-  color: #fff;
+  color: #04450e;
   font-size: 20px;
   font-family: sans-serif;
   padding: 5px;
+  font-weight: 700;
 }
 
 /*LIVRO9*/
