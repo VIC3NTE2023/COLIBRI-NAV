@@ -155,6 +155,92 @@ header{
 .search-box:hover > .search-btn{
     background: #f0f5fb;
 }
-/*GIRATORIA*/
+/*LIVRO 1*/
 
+.container{
+  position: absolute;
+  width: 100px;
+  height: 140px;
+  margin: 10px;
+}
+.container:hover .flip{
+  transform: rotateY(180deg);
+}
+.flip{
+  position: absolute;
+  width: 140%;
+  height: 140%;
+  cursor: pointer;
+  transform-style: preserve-3d;
+  transition: 1s;
+  margin: 10px;
+}
+.frente,.tras{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+  box-shadow: 0px 0px 10px #0000002a;
+  backface-visibility: hidden;
+}
+.frente{
+  background-image: url(livroalgoritimo.jpg);
+  background-size: cover;
+}
+.tras{
+  background-color: rgb(0, 0, 0);
+  transform: rotateY(180deg);
+  align-items: top;
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+  color: #fff;
+  font-size: 20px;
+  font-family: sans-serif;
+  padding: 5px;
+}
 
+/*LIVRO2*/
+.container2{
+  position: relative;
+  left: 200px;
+  width: 100px;
+  height: 140px;
+  margin: 10px;
+}
+.container2:hover .flip2{
+  transform: rotateY(180deg);
+}
+.flip2{
+  position: absolute;
+  width: 140%;
+  height: 140%;
+  cursor: pointer;
+  transform-style: preserve-3d;
+  transition: 1s;
+  margin: 10px;
+}
+.frente2,.tras2{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+  box-shadow: 0px 0px 10px #0000002a;
+  backface-visibility: hidden;
+}
+.frente2{
+  background-image: url(micro.jpg);
+  background-size: cover;
+}
+.tras2{
+  background-color: rgb(0, 0, 0);
+  transform: rotateY(180deg);
+  align-items: top;
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+  color: #fff;
+  font-size: 20px;
+  font-family: sans-serif;
+  padding: 5px;
+}
