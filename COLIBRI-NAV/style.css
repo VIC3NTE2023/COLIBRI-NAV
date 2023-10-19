@@ -9,17 +9,24 @@ header{
   box-shadow: 0px 3px 10px #464646;   
 }
 
+body{
+  background-color: #18324d;
+}
 .titulo {
   display: flex;
   margin: 10px;
-  
 }
 .titulo2{
   display: flex;
   position: relative;
   bottom: 200px;
   margin: 10px;
-  
+}
+.titulo3{
+  display: flex;
+  position: relative;
+  bottom: 500px;
+  margin: 10px;
 }
 .nav-bar{
   display: flex;
@@ -486,6 +493,239 @@ border-color:  black
   justify-content: center;
   font-size: 24px;
   color: #fff;
+  font-size: 20px;
+  font-family: sans-serif;
+  padding: 5px;
+}
+
+/*LIVRO8*/
+.container8{
+  position: relative;
+  left: 600px;
+  bottom: 610px;
+  width: 100px;
+  height: 140px;
+  
+}
+.container8:hover .flip8{
+  transform: rotateY(180deg);
+}
+.flip8{
+  position: absolute;
+  width: 140%;
+  height: 140%;
+  cursor: pointer;
+  transform-style: preserve-3d;
+  transition: 1s;
+  margin: 10px;
+}
+.frente8,.tras8{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+  box-shadow: 0px 0px 10px #0000002a;
+  backface-visibility: hidden;
+}
+.frente8{
+  background-image: url(fermentação.jpg);
+  background-size: cover;
+}
+.tras8{
+  background-color: rgb(0, 0, 0);
+  transform: rotateY(180deg);
+  align-items: top;
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+  color: #fff;
+  font-size: 20px;
+  font-family: sans-serif;
+  padding: 5px;
+}
+
+/*LIVRO9*/
+.container9{
+  position: relative;
+  left: 10px;
+  bottom: 500px;
+  width: 100px;
+  height: 140px;
+  
+}
+.container9:hover .flip9{
+  transform: rotateY(180deg);
+}
+.flip9{
+  position: absolute;
+  width: 140%;
+  height: 140%;
+  cursor: pointer;
+  transform-style: preserve-3d;
+  transition: 1s;
+  margin: 10px;
+}
+.frente9,.tras9{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+  box-shadow: 0px 0px 10px #0000002a;
+  backface-visibility: hidden;
+}
+.frente9{
+  background-image: url(pedra.jpg);
+  background-size: cover;
+}
+.tras9{
+  background-color: rgb(121, 7, 7);
+  transform: rotateY(180deg);
+  align-items: top;
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+  color: #9b9109;
+  font-weight: 700;
+  font-size: 20px;
+  font-family: sans-serif;
+  padding: 5px;
+}
+
+/*LIVRO10*/
+.container10{
+  position: relative;
+  left: 200px;
+  bottom: 640px;
+  width: 100px;
+  height: 140px;
+  
+}
+.container10:hover .flip10{
+  transform: rotateY(180deg);
+}
+.flip10{
+  position: absolute;
+  width: 140%;
+  height: 140%;
+  cursor: pointer;
+  transform-style: preserve-3d;
+  transition: 1s;
+  margin: 10px;
+}
+.frente10,.tras10{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+  box-shadow: 0px 0px 10px #0000002a;
+  backface-visibility: hidden;
+}
+.frente10{
+  background-image: url(camara.jpg);
+  background-size: cover;
+}
+.tras10{
+  background-color: rgb(12, 67, 5);
+  transform: rotateY(180deg);
+  align-items: top;
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+  color: #9b9109;
+  font-weight: 700;
+  font-size: 20px;
+  font-family: sans-serif;
+  padding: 5px;
+}
+
+/*LIVRO11*/
+.container11{
+  position: relative;
+  left: 400px;
+  bottom: 780px;
+  width: 100px;
+  height: 140px;
+  
+}
+.container11:hover .flip11{
+  transform: rotateY(180deg);
+}
+.flip11{
+  position: absolute;
+  width: 140%;
+  height: 140%;
+  cursor: pointer;
+  transform-style: preserve-3d;
+  transition: 1s;
+  margin: 10px;
+}
+.frente11,.tras11{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+  box-shadow: 0px 0px 10px #0000002a;
+  backface-visibility: hidden;
+}
+.frente11{
+  background-image: url(azkaban.jpg);
+  background-size: cover;
+}
+.tras11{
+  background-color: rgb(43, 1, 65);
+  transform: rotateY(180deg);
+  align-items: top;
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+  color: rgb(224, 224, 224);
+  font-weight: 700;
+  font-size: 20px;
+  font-family: sans-serif;
+  padding: 5px;
+}
+/*LIVRO12*/
+.container12{
+  position: relative;
+  left: 600px;
+  bottom: 920px;
+  width: 100px;
+  height: 140px;
+  
+}
+.container12:hover .flip12{
+  transform: rotateY(180deg);
+}
+.flip12{
+  position: absolute;
+  width: 140%;
+  height: 140%;
+  cursor: pointer;
+  transform-style: preserve-3d;
+  transition: 1s;
+  margin: 10px;
+}
+.frente12,.tras12{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+  box-shadow: 0px 0px 10px #0000002a;
+  backface-visibility: hidden;
+}
+.frente12{
+  background-image: url(calice.jpg);
+  background-size: cover;
+}
+.tras12{
+  background-color: rgb(4, 31, 65);
+  transform: rotateY(180deg);
+  align-items: top;
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+  color: rgb(8, 126, 30);
+  font-weight: 700;
   font-size: 20px;
   font-family: sans-serif;
   padding: 5px;
