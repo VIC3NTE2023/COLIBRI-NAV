@@ -34,6 +34,12 @@ body{
   bottom: 800px;
   margin: 10px;
 }
+.titulo5{
+  display: flex;
+  position: relative;
+  bottom: 1070px;
+  margin: 10px;
+}
 .nav-bar{
   display: flex;
   align-items: center;
@@ -881,7 +887,7 @@ border-color:  black
   font-family: sans-serif;
   padding: 5px;
 }
-/*LIVRO15*/
+/*LIVRO16*/
 .container16{
   position: relative;
   left: 600px;
@@ -922,6 +928,194 @@ border-color:  black
   justify-content: center;
   font-size: 24px;
   color: rgb(255, 255, 255);
+  font-weight: 800;
+  font-size: 20px;
+  font-family: sans-serif;
+  padding: 5px;
+}
+
+/*LIVRO17*/
+.container17{
+  position: relative;
+  left: 10px;
+  bottom: 1060px;
+  width: 100px;
+  height: 140px;
+  
+}
+.container17:hover .flip17{
+  transform: rotateY(180deg);
+}
+.flip17{
+  position: absolute;
+  width: 140%;
+  height: 140%;
+  cursor: pointer;
+  transform-style: preserve-3d;
+  transition: 1s;
+  margin: 10px;
+}
+.frente17,.tras17{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+  box-shadow: 0px 0px 10px #0000002a;
+  backface-visibility: hidden;
+}
+.frente17{
+  background-image: url(mindset.jpg);
+  background-size: cover;
+}
+.tras17{
+  background-color: rgb(255, 255, 255);
+  transform: rotateY(180deg);
+  align-items: top;
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+  color: rgb(0, 0, 0);
+  font-weight: 800;
+  font-size: 20px;
+  font-family: sans-serif;
+  padding: 5px;
+}
+
+/*LIVRO18*/
+.container18{
+  position: relative;
+  left: 200px;
+  bottom: 1200px;
+  width: 100px;
+  height: 140px;
+  
+}
+.container18:hover .flip18{
+  transform: rotateY(180deg);
+}
+.flip18{
+  position: absolute;
+  width: 140%;
+  height: 140%;
+  cursor: pointer;
+  transform-style: preserve-3d;
+  transition: 1s;
+  margin: 10px;
+}
+.frente18,.tras18{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+  box-shadow: 0px 0px 10px #0000002a;
+  backface-visibility: hidden;
+}
+.frente18{
+  background-image: url(opoderdohabito.jpg);
+  background-size: cover;
+}
+.tras18{
+  background-color: rgb(220, 210, 22);
+  transform: rotateY(180deg);
+  align-items: top;
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+  color: rgb(255, 0, 0);
+  font-weight: 800;
+  font-size: 20px;
+  font-family: sans-serif;
+  padding: 5px;
+}
+
+
+/*LIVRO19*/
+.container19{
+  position: relative;
+  left: 400px;
+  bottom: 1340px;
+  width: 100px;
+  height: 140px;
+  
+}
+.container19:hover .flip19{
+  transform: rotateY(180deg);
+}
+.flip19{
+  position: absolute;
+  width: 140%;
+  height: 140%;
+  cursor: pointer;
+  transform-style: preserve-3d;
+  transition: 1s;
+  margin: 10px;
+}
+.frente19,.tras19{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+  box-shadow: 0px 0px 10px #0000002a;
+  backface-visibility: hidden;
+}
+.frente19{
+  background-image: url(foda.jpg);
+  background-size: cover;
+}
+.tras19{
+  background-color: rgb(255, 128, 0);
+  transform: rotateY(180deg);
+  align-items: top;
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+  color: rgb(0, 0, 0);
+  font-weight: 800;
+  font-size: 20px;
+  font-family: sans-serif;
+  padding: 5px;
+}
+/*LIVRO20*/
+.container20{
+  position: relative;
+  left: 600px;
+  bottom: 1485px;
+  width: 100px;
+  height: 140px;
+  
+}
+.container20:hover .flip20{
+  transform: rotateY(180deg);
+}
+.flip20{
+  position: absolute;
+  width: 140%;
+  height: 140%;
+  cursor: pointer;
+  transform-style: preserve-3d;
+  transition: 1s;
+  margin: 10px;
+}
+.frente20,.tras20{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+  box-shadow: 0px 0px 10px #0000002a;
+  backface-visibility: hidden;
+}
+.frente20{
+  background-image: url(habito.jpg);
+  background-size: cover;
+}
+.tras20{
+  background-color: rgb(255, 255, 255);
+  transform: rotateY(180deg);
+  align-items: top;
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+  color: rgb(194, 168, 19);
   font-weight: 800;
   font-size: 20px;
   font-family: sans-serif;
