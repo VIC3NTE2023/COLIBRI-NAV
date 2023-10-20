@@ -1247,3 +1247,15 @@ font-size: 1.25rem;
     padding: 3rem 2rem;
   }
 }
+
+
+#botao-de-compra{
+  color: #fff;
+  background-color: #065164;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+#botao-de-compra:hover{
+  background-color: #08657c;
+}
